@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock 90s</title>
+</head>
+<body>
+	<body style="background-color:#708090;">
+<style>
+ul {
+    list-style-type: none;
+    margin: -0;
+    padding: -0;
+    overflow: hidden;
+    background-color: #234052;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    width: 60px;
+    height: 60px;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+
+    <a class="navbar-brand" rel="home" href="#" title="Welcome to rock n roll world" li style="float:left">
+        <img style="max-width:100px; margin-top: -7px;"
+             src="guitar.png">            
+    </a>
+
+    <a class="navbar-brand" rel="home" href="#" title="Vinyl" li style="float:right">
+        <img style="max-width:80px; margin-top: -7px;"
+             src="vinyl.png">            
+    </a>
+
+  <b><li><a href="o.html">Rock'n'Roll</a></li><b>
+  <li><a href="Rock 50s.html">Rock 50s</a></li>
+  <li><a href="Rock 60s.html">Rock 60s</a></li>
+  <li><a href="Rock 70s.html">Rock 70s</a></li>
+  <li><a href="Rock 80s.html">Rock 80s</a></li>
+  <li><a href="#90">Rock 90s</a></li>
+<script>
+    const buttons = document.querySelectorAll('a');
+    buttons.forEach(btn => {
+        btn.addEventListener('click',function(e) {
+            let x = e.clientX - e.target.offsetLeft;
+            let y = e.clientY -e.target.offsetTop;
+ 
+            let ripples = document.createElement('span');
+            ripples.style.left = x +  'px';
+            ripples.style.top = y + 'px';
+            this.appendChild(ripples);
+ 
+            setTimeout(() => {
+                ripples.remove()
+            },1000)
+        })
+    })
+</script>
+</ul>
+
+</body>
+</html>
+<style>
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  height:140px;
+  padding: 90px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #5DA4AA;
+}
+
+.vertical-menu a.active {
+  background-color: #699AB8;
+  color: #234052;
+}
+</style>
+</head>
+<body>
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="Guitarists.html">Guitarists</a>
+  <a href="albums.html">Albums</a>
+  <a href="greathits.html">Great Hits</a>
+  <a href="bandsshirts.html">Bands shirt</a>
+</div>
+
+</body>
+</html>
+ 
+    <div style = "position:absolute; left:211px; top:104px;">
+
+     <font color="yellow"><u><h2>Rock 90s:</h2></u></font>
+
+    <u><i><h2><font color="#2C3962">|Britpop:</font></i></h2></u>
+
+  <i><h2>In the early 1990s, a counter-culture movement rose in Britain,<font color="#ff3300"> called Britpop by the music press</font>,<u><font color="#ffffff"> rejecting the themes of disenfranchised youth coming out of America in favour of songs written specifically about the experiences of the British youth.</font></u> Although the movement was heavily influenced by<u> 1960s, 1970s, and 1980s British rock</u> there was very little that musically defined the Britpop bands beyond the intensely British lyrical themes. Britpop bands such as Blur, Suede, Pulp, Ash, Elastica, Supergrass, The Verve and Oasis regularly topped the singles and album charts throughout the decade.</h2></i>
+<div>
+<div style="float: left">
+<img src="britpop.jpg" />
+</div>
+  <h2><i><font color="#194d00">Oasis were the biggest band of the Britpop era at the forefront of alternative rock</font>, as their second album (What's the Story) Morning Glory? became the second highest selling studio album of all time in the U.K."Wonderwall" peaked at number 2 in the UK Singles charts, and number 8 in the US Billboard 100. Their era defining concerts at Knebworth Park, playing to 250,000 people over two nights,broke records for attendance and ticket applications.In addition to this, they made a significant impact on the US market, achieving three top 5 albums in that country. The Britpop phenomena ran out of steam by the end of the 1990s with most of its most successful bands splitting up or fading away, although bands that rose from the rubble of predecessors Oasis were Travis, Coldplay and Keane.</i></h2>
+ 
+  <div class="column">
+       <center><img src="oasis.png" alt="Oasis"></center>
+      <font color="maroon">
+      <h2><center><u><i><figcaption>The Britpop band "Oasis"</figcaption></i> </u></font></center></h2>
+     </div>
+  <li><u><i><h3>for more information about britpop click on this video:</h3></i></u></li>
+
+
+  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/BZOTugDEJ44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock 80s</title>
+</head>
+<body>
+	<body style="background-color:#708090;">
+<style>
+ul {
+    list-style-type: none;
+    margin: -0;
+    padding: -0;
+    overflow: hidden;
+    background-color: #234052;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    width: 60px;
+    height: 60px;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+
+    <a class="navbar-brand" rel="home" href="#" title="Welcome to rock n roll world" li style="float:left">
+        <img style="max-width:100px; margin-top: -7px;"
+             src="guitar.png">            
+    </a>
+
+    <a class="navbar-brand" rel="home" href="#" title="Vinyl" li style="float:right">
+        <img style="max-width:80px; margin-top: -7px;"
+             src="vinyl.png">            
+    </a>
+
+  <b><li><a href="o.html">Rock'n'Roll</a></li><b>
+  <li><a href="Rock 50s.html">Rock 50s</a></li>
+  <li><a href="Rock 60s.html">Rock 60s</a></li>
+  <li><a href="Rock 70s.html">Rock 70s</a></li>
+  <li><a href="#80">Rock 80s</a></li>
+  <li><a href="Rock 90s.html">Rock 90s</a></li>
+<script>
+    const buttons = document.querySelectorAll('a');
+    buttons.forEach(btn => {
+        btn.addEventListener('click',function(e) {
+            let x = e.clientX - e.target.offsetLeft;
+            let y = e.clientY -e.target.offsetTop;
+ 
+            let ripples = document.createElement('span');
+            ripples.style.left = x +  'px';
+            ripples.style.top = y + 'px';
+            this.appendChild(ripples);
+ 
+            setTimeout(() => {
+                ripples.remove()
+            },1000)
+        })
+    })
+</script>
+</ul>
+
+</body>
+</html>
+<style>
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  height:235px;
+  padding: 90px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #5DA4AA;
+}
+
+.vertical-menu a.active {
+  background-color: #699AB8;
+  color: #234052;
+}
+</style>
+</head>
+<body>
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="Guitarists.html">Guitarists</a>
+  <a href="albums.html">Albums</a>
+  <a href="greathits.html">Great Hits</a>
+  <a href="bandsshirts.html">Bands shirt</a>
+</div>
+
+</body>
+</html>
+ 
+    <div style = "position:absolute; left:211px; top:104px;">
+     <font color="yellow"><u><h2>80s Rock:</h2></u></font>
+    <u><i><h2><font color="#2C3962">|post-punk:</font></i></h2></u>
+
+  <h3>Some of the most successful post-punk bands at the beginning of the decade,<font color="red"> such as Siouxsie and the Banshees and the Psychedelic Furs,</font> <u>also continued their success during the 1980s.</u> <u><font color="white">Members of Bauhaus and Joy Division explored new stylistic territory as Love and Rockets and New Order respectively.</font></u><br>
+
+The second generation of British post-punk bands that broke through in the early 1980s,<font color="blue"> including the Smiths, the Jesus and Mary Chain, the Cure, the Fall, the Pop Group, the Mekons, Echo and the Bunnymen and Teardrop Explodes</font>, tended to move away from dark sonic landscapes.
+
+Even though the Police's first hit song <u><i>"Roxanne"</i></u> was written by <font color="white">Sting</font> in <i>1978</i> <i><font color="orange">(reaching number 12 in the UK Charts that year)</font></i>, the song continued to grow in popularity in the 1980s along with the band. Even though The Police had their roots in post-punk, their eventual success <i><font color="orange">(four consecutive UK number one studio albums)</font></i> and mega-stardom came from being able to pack the biggest stadium rock venues such as Wembley, the Oakland Coliseum and the Maracanã in Rio de Janeiro. Aside from <u><font color="white">U2, they are the only other band with post-punk origins to go on and achieve the kind of global success they did.</font></u> Ireland's U2 incorporated elements of religious imagery together with political commentary into their often anthemic music, and by the late <i>1980s</i> had become one of <u>the biggest bands in the world.</u></h3>
+
+<h3>Although many post-punk bands continued to record and perform, it declined as a movement in the mid-1980s as acts disbanded or moved off to explore other musical areas,<font color="white"><i>but it has continued to influence the development of rock music and has been seen as a major element in the creation of the alternative rock movement.</h3></i></font>
+
+  <style> 
+  .column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  img {
+    width: 100%;
+    
+  } 
+</style>
+</head>  
+<body>
+    <i><font color="yellow"><u><h2>Some Bands straight from post-punk:</h2></i></font></u>
+  <div class="container">
+     <div class="column">
+       <img src="u2.png" alt="U2">
+      <font color="maroon"><u> <i><figcaption>Post Punk band "U2"</figcaption></i> </u></font>
+     </div>
+     <div class="column">
+       <img src="thepolice.png" alt="The Polie">
+      <font color="maroon"><u> <i><figcaption>Pop Rock & Post Punk band "the police"</figcaption></i> </u></font>
+     </div>
+     <div class="column">
+        <img src="joydivision.png" alt="Joy Division">
+     <font color="maroon"><u> <i><figcaption>Gothic Rock & Post Punk band "Joy Division"</figcaption></i> </u></font>
+     </div>
+  </div>
+</font>
+  </i>
+    </body>
+      </h3>
+         </i>
+           </u>
+             </div>
+           </b>
+        </b>
+     </ul>
+  </body>
+</body>
+</body>
+</html>
+
+<div style = "position:absolute; left:211px; top:850px;">
+<body>
+<html>
+ <u><i><h2><font color="#2C3962">|New Wave Music:</font></i></h2></u>
+
+<h2><i>The arrival of MTV in 1981 would usher in new wave's most successful era. British artists, unlike many of their American counterparts, had learned how to use the music video early on.Several British acts signed to independent labels were able to outmarket and outsell American artists that were signed with major labels. Journalists labelled this phenomenon a "Second British Invasion".</i></h2>
+
+<h3><i><u>In autumn 1982</u>,<u><font color="white">"I Ran (So Far Away)" by A Flock of Seagulls entered the Billboard Top Ten</u></font>, arguably the first successful song that owed almost everything to video.They would be followed by bands like Duran Duran whose glossy videos would come to symbolize the power of MTV.<font color="lime">Dire Straits' "Money for Nothing" gently poked fun at <u>MTV</u> which had helped make them international rock stars.In 1983</font>, 30% of the record sales were from British acts. 18 of the top 40 and 6 of the top 10 singles on July 18 were by British artists. Overall record sales would rise by 10% from 1982.Newsweek magazine featured Annie Lennox and Boy George on the cover of one of its issues while Rolling Stone Magazine would release an England Swings issue.In April 1984 40 of the top 100 singles were from British acts while 8 of the top 10 singles in a May 1985 survey were of British origin.Veteran music journalist Simon Reynolds theorized that similar to the first British Invasion the use of black American influences by the British acts helped to spur success.Commentators in the mainstream media credited MTV and the British acts with bringing colour and energy to back to pop music while rock journalists were generally hostile to the phenomenon because they felt it represented image over content.<font color="aquamarine">MTV continued its heavy rotation of videos by new wave-oriented acts until 1987</font><u>/when it changed to a heavy metal and rock dominated format\.</u></h3>
+
+  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/JcqhvPNiJzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+  <u><i><h2><center><figcaption>"Money For Nothing" Song by dire straits Live in aid "1985"</figcaption></center></h2></i></u>
+
+   <u><i><h2><font color="#2C3962">|Gothic Rock:</font></i></h2></u>
+   <i><h3><font color="purple">Gothic rock music</font> developed out of the post-punk scene in the later 1970s. Notable early gothic rock bands include Bauhaus (whose "Bela Lugosi's Dead" is often cited as the first goth record), Siouxsie and the Banshees, The Cure, The Sisters of Mercy, and Fields of the Nephilim.Gothic rock gave rise to a broader goth subculture that included clubs, various fashion trends and numerous publications that grew in popularity in the 1980s, gaining notoriety by being associated by several moral panics over suicide and Satanism.</h3></i>  
+      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/q1xd7dxBqOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+       <u><i><h2><center><figcaption>"for more information about gothic rock click on this video"</figcaption></center></h2></i></u>

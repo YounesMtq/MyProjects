@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Albums</title>
+</head>
+<body>
+	<body style="background-color:#708090;">
+<style>
+ul {
+    list-style-type: none;
+    margin: -0;
+    padding: -0;
+    overflow: hidden;
+    background-color: #234052;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    width: 60px;
+    height: 60px;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+
+    <a class="navbar-brand" rel="home" href="#" title="Welcome to rock n roll world" li style="float:left">
+        <img style="max-width:100px; margin-top: -7px;"
+             src="guitar.png">            
+    </a>
+
+    <a class="navbar-brand" rel="home" href="#" title="Vinyl" li style="float:right">
+        <img style="max-width:80px; margin-top: -7px;"
+             src="vinyl.png">            
+    </a>
+
+  <b><li><a href="o.html">Rock'n'Roll</a></li><b>
+  <li><a href="Rock 50s.html">Rock 50s</a></li>
+  <li><a href="Rock 60s.html">Rock 60s</a></li>
+  <li><a href="Rock 70s.html">Rock 70s</a></li>
+  <li><a href="Rock 80s.html">Rock 80s</a></li>
+  <li><a href="Rock 90s.html">Rock 90s</a></li>
+<script>
+    const buttons = document.querySelectorAll('a');
+    buttons.forEach(btn => {
+        btn.addEventListener('click',function(e) {
+            let x = e.clientX - e.target.offsetLeft;
+            let y = e.clientY -e.target.offsetTop;
+ 
+            let ripples = document.createElement('span');
+            ripples.style.left = x +  'px';
+            ripples.style.top = y + 'px';
+            this.appendChild(ripples);
+ 
+            setTimeout(() => {
+                ripples.remove()
+            },1000)
+        })
+    })
+</script>
+</ul>
+
+</body>
+</html>
+<style>
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  height:387px;
+  padding: 90px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #5DA4AA;
+}
+
+.vertical-menu a.active {
+  background-color: #699AB8;
+  color: #234052;
+}
+</style>
+</head>
+<body>
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="Guitarists.html">Guitarists</a>
+  <a href="albums.html">Albums</a>
+  <a href="greathits.html">Great Hits</a>
+  <a href="bandsshirts.html">Bands shirt</a>
+</div>
+
+</body>
+</html>
+ <body>
+  <html>
+  <div style = "position:absolute; left:211px; top:104px;">
+    <font color="yellow"><u><h2>Here For Some Albums From 60s:</h2></u></font>
+
+      <div id="images">
+    <figure>
+        <img src="buffalo.jpg" alt=”BuffaloSpringfield” width=180 height=180>
+    <figcaption>The first album by a folk rock band called Buffalo Springfield realesed on 1966</figcaption>
+    </figure>
+    </div>
+
+<div id="images">
+    <figure>
+        <img src="wolf.jpg" alt=”SteppenWolf” width=180 height=180>
+    <figcaption>The first album by a hard rock and blues rock band called steppenwolf realesed on 1968</figcaption>
+    </figure>
+
+</div>
+
+<div id="images">
+   <figure>
+    <img src="led.jpg" alt="Ledzeppelin" width="180" height="180">
+    <figcaption>The first album by a hard rock and heavy metal band called led zeppelin realesed on the 1969</figcaption>
+  </figure>
+</div>
+
+  <font color="yellow"><u><h2>Here For Some Albums From 70s:</h2></u></font>
+
+
+      <div id="images">
+    <figure>
+        <img src="rainbow.jpg" alt=”rainbow” width=180 height=180>
+    <figcaption>The first album by the blues and hard rock band realesed on the 1975 by the lead guitarist Ritchie Blackmore ancient former of the hard rock band deep purple</figcaption>
+    </figure>
+    </div>
+
+<div id="images">
+    <figure>
+        <img src="sabotage.jpg" alt=”blacksabbath” width=180 height=180>
+    <figcaption>The fifth album "sabotage" by hard rock and heavy metal band called Black Sabbath realesed on the 1975</figcaption>
+    </figure>
+
+</div>
+
+<div id="images">
+   <figure>
+    <img src="free.jpg" alt="free" width="180" height="180">
+    <figcaption>the six album by the blues rock band free realesed on the 1973</figcaption>
+  </figure>
+</div>
+   
+    <font color="yellow"><u><h2>Here For Some Albums From 80s:</h2></u></font>
+
+       <div id="images">
+    <figure>
+        <img src="europe.jpg" alt=”europe” width=180 height=180>
+    <figcaption>the second album by the arena and hard rock band called europe realesed on 1984</figcaption>
+    </figure>
+    </div>
+
+<div id="images">
+    <figure>
+        <img src="motorhead.jpg" alt="aceofspades" width=180 height=180>
+    <figcaption>the fourth album by the hard rock and heavy metal band called motorhead realesed on 1980</figcaption>
+    </figure>
+
+</div>
+
+<div id="images">
+   <figure>
+    <img src="maiden.jpg" alt="maiden" width="180" height="180">
+    <figcaption>the fourth album by the hard rock and heavy metal band called Iron maiden realesed on 1980</figcaption>
+  </figure>
+</div>
+
+  <font color="yellow"><u><h2>Here For Some Albums From 90s:</h2></u></font>
+
+      <div id="images">
+    <figure>
+        <img src="colma.jpg" alt="colma" width=180 height=180>
+    <figcaption>the fourth album by the experimental rock artist called buckethead realesed on 1993 "colma"</figcaption>
+    </figure>
+    </div>
+
+<div id="images">
+    <figure>
+        <img src="petty.jpg" alt="heartbreakers" width=180 height=180>
+    <figcaption>the eighth album by the heartland rock band called Tom Petty and the Heartbreakers " Into the Great Wide Open" realesed on 1991</figcaption>
+    </figure>
+
+</div>
+
+<div id="images">
+   <figure>
+    <img src="smashing.jpg" alt="smashing pumpkins" width="180" height="180">
+    <figcaption>the third album by the alternative rock and grunge band called the smashing pumpkins realesed on 1995</figcaption>
+  </figure>
+</div>
